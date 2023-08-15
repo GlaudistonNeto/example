@@ -7,7 +7,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "rabbitmq": "docker-compose -f docker-compose.yml up rabbitmq"
   },
   "dependencies": {
     "@typegoose/typegoose": "^11.4.1",
